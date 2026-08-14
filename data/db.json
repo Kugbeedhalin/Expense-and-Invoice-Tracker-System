@@ -1,0 +1,336 @@
+{
+  "users": [
+    {
+      "id": "usr_101",
+      "email": "owner@extract.com",
+      "password": "password123",
+      "name": "Kugbee Floky",
+      "role": "admin",
+      "companyName": "Extract Financials",
+      "companyAddress": "Accra - Ghana",
+      "companyPhone": "+233 24 123 4567",
+      "companyEmail": "hello@extract.com"
+    },
+    {
+      "id": "usr_1786561113480",
+      "email": "kugbeeflokydhalin@gmail.com",
+      "password": "Welcome01",
+      "name": "Kugbee Floky",
+      "role": "admin",
+      "companyName": "Extract Financials",
+      "companyAddress": "Accra - Ghana",
+      "companyPhone": "+233 24 123 4567",
+      "companyEmail": "kugbeeflokydhalin@gmail.com"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_1786560479566",
+      "type": "income",
+      "name": "Kugbee Dhalin",
+      "category": "Subscriptions",
+      "amount": 20,
+      "date": "12/08/2026 - 06:49 PM",
+      "isoDate": "2026-08-12",
+      "status": "Success",
+      "note": "",
+      "transferMethod": "Wallet"
+    },
+    {
+      "id": "tx_1",
+      "type": "income",
+      "name": "Sebastian Kingsley",
+      "category": "Transfer",
+      "amount": 50.2,
+      "date": "02/06/2023 - 10:45 AM",
+      "isoDate": "2023-06-02",
+      "status": "Success",
+      "note": "Freelance payment for mobile design",
+      "transferMethod": "Card",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "tx_2",
+      "type": "expense",
+      "name": "Amazon Prime",
+      "category": "Subscriptions",
+      "amount": 43.9,
+      "date": "02/06/2023 - 12:00 AM",
+      "isoDate": "2023-06-02",
+      "status": "Success",
+      "note": "Office monthly supply auto-renewal",
+      "transferMethod": "Same Bank",
+      "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=100&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "tx_3",
+      "type": "expense",
+      "name": "Gabriel Whitman",
+      "category": "Services",
+      "amount": 30.1,
+      "date": "07/06/2023 - 01:00 PM",
+      "isoDate": "2023-06-07",
+      "status": "Failed",
+      "note": "Consulting fee retry",
+      "transferMethod": "Wallet",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "tx_4",
+      "type": "income",
+      "name": "Nathaniel Ashford",
+      "category": "Transfer",
+      "amount": 90.9,
+      "date": "15/06/2023 - 10:02 AM",
+      "isoDate": "2023-06-15",
+      "status": "Success",
+      "note": "Invoiced retainer settlement",
+      "transferMethod": "Card",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "tx_5",
+      "type": "expense",
+      "name": "Netflix",
+      "category": "Subscriptions",
+      "amount": 20,
+      "date": "23/06/2023 - 04:22 PM",
+      "isoDate": "2023-06-23",
+      "status": "Success",
+      "note": "Team breakroom streaming account",
+      "transferMethod": "Other Bank",
+      "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "tx_6",
+      "type": "income",
+      "name": "Acme Enterprise Solutions",
+      "category": "Invoice",
+      "amount": 1200,
+      "date": "10/08/2026 - 09:30 AM",
+      "isoDate": "2026-08-10",
+      "status": "Success",
+      "note": "Payment for Invoice #INV-2024-001",
+      "transferMethod": "Same Bank"
+    },
+    {
+      "id": "tx_7",
+      "type": "expense",
+      "name": "Figma & GitHub Suite",
+      "category": "Software",
+      "amount": 185,
+      "date": "08/08/2026 - 02:15 PM",
+      "isoDate": "2026-08-08",
+      "status": "Success",
+      "note": "Design & Dev tools license renewal",
+      "transferMethod": "Card"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_1",
+      "invoiceNumber": "INV-2024-001",
+      "clientName": "Acme Corporation",
+      "clientEmail": "billing@acmecorp.com",
+      "clientAddress": "Attn: Jane Doe\nAccra - Ghana",
+      "clientAttn": "Jane Doe",
+      "issueDate": "2026-08-12",
+      "dueDate": "2026-09-11",
+      "items": [
+        {
+          "id": "item_1",
+          "description": "Q3 Enterprise Software Development Retainer",
+          "qty": 1,
+          "rate": 1200,
+          "amount": 1200
+        },
+        {
+          "id": "item_2",
+          "description": "Custom API Gateway Security Audit",
+          "qty": 1,
+          "rate": 450,
+          "amount": 450
+        }
+      ],
+      "subtotal": 1650,
+      "taxPercent": 5,
+      "taxAmount": 82.5,
+      "discount": 0,
+      "total": 1732.5,
+      "status": "Sent",
+      "notes": "Payment due within 30 days. Thank you for your business!",
+      "template": "modern",
+      "createdAt": "2026-08-12T18:46:38.245Z"
+    },
+    {
+      "id": "inv_2",
+      "invoiceNumber": "INV-2024-002",
+      "clientName": "Stark Industries",
+      "clientEmail": "finance@stark.com",
+      "clientAddress": "Accra - Ghana",
+      "clientAttn": "Pepper Potts",
+      "issueDate": "2026-08-01",
+      "dueDate": "2026-08-31",
+      "items": [
+        {
+          "id": "item_3",
+          "description": "Cloud Infrastructure Migration & Monitoring",
+          "qty": 2,
+          "rate": 1750,
+          "amount": 3500
+        }
+      ],
+      "subtotal": 3500,
+      "taxPercent": 0,
+      "taxAmount": 0,
+      "discount": 200,
+      "total": 3300,
+      "status": "Paid",
+      "notes": "Wire transfer received on 05/08/2026.",
+      "template": "modern",
+      "createdAt": "2026-08-12T18:46:38.245Z"
+    },
+    {
+      "id": "inv_3",
+      "invoiceNumber": "INV-2024-003",
+      "clientName": "Wayne Enterprises",
+      "clientEmail": "accounts@wayne.com",
+      "clientAddress": "Accra - Ghana",
+      "clientAttn": "Lucius Fox",
+      "issueDate": "2026-08-10",
+      "dueDate": "2026-08-25",
+      "items": [
+        {
+          "id": "item_4",
+          "description": "UI/UX Design System & Figma Component Library",
+          "qty": 1,
+          "rate": 2800,
+          "amount": 2800
+        }
+      ],
+      "subtotal": 2800,
+      "taxPercent": 8,
+      "taxAmount": 224,
+      "discount": 0,
+      "total": 3024,
+      "status": "Pending",
+      "notes": "Payment due within 15 days.",
+      "template": "modern",
+      "createdAt": "2026-08-12T18:46:38.245Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli_1",
+      "name": "Acme Corporation",
+      "company": "Acme Corp",
+      "email": "billing@acmecorp.com",
+      "phone": "+233 24 987 6543",
+      "address": "Accra - Ghana",
+      "attn": "Jane Doe",
+      "totalBilled": 1732.5,
+      "activeInvoicesCount": 1,
+      "status": "Active"
+    },
+    {
+      "id": "cli_2",
+      "name": "Stark Industries",
+      "company": "Stark Industries",
+      "email": "finance@stark.com",
+      "phone": "+233 24 234 5678",
+      "address": "Accra - Ghana",
+      "attn": "Pepper Potts",
+      "totalBilled": 3300,
+      "activeInvoicesCount": 0,
+      "status": "Active"
+    },
+    {
+      "id": "cli_3",
+      "name": "Wayne Enterprises",
+      "company": "Wayne Ent",
+      "email": "accounts@wayne.com",
+      "phone": "+233 24 876 5432",
+      "address": "Accra - Ghana",
+      "attn": "Lucius Fox",
+      "totalBilled": 3024,
+      "activeInvoicesCount": 1,
+      "status": "Active"
+    }
+  ],
+  "dashboardStats": {
+    "currentBalance": 8200,
+    "balanceGrowth": 21,
+    "totalIncome": 1550,
+    "incomeGrowth": 7.9,
+    "totalExpenses": 5210,
+    "expenseGrowth": -32,
+    "fundTransfers": {
+      "card": 1200,
+      "sameBank": 4500,
+      "wallet": 3200,
+      "otherBank": 1150
+    },
+    "cashFlow": [
+      {
+        "month": "Jan",
+        "income": 6200,
+        "expenses": 4100
+      },
+      {
+        "month": "Feb",
+        "income": 7800,
+        "expenses": 5200
+      },
+      {
+        "month": "Mar",
+        "income": 5500,
+        "expenses": 3900
+      },
+      {
+        "month": "Apr",
+        "income": 8900,
+        "expenses": 6100
+      },
+      {
+        "month": "May",
+        "income": 9400,
+        "expenses": 4800
+      },
+      {
+        "month": "Jun",
+        "income": 7100,
+        "expenses": 5900
+      },
+      {
+        "month": "Jul",
+        "income": 8500,
+        "expenses": 4500
+      },
+      {
+        "month": "Aug",
+        "income": 9200,
+        "expenses": 5210
+      },
+      {
+        "month": "Sep",
+        "income": 7600,
+        "expenses": 3800
+      },
+      {
+        "month": "Oct",
+        "income": 8100,
+        "expenses": 4900
+      },
+      {
+        "month": "Nov",
+        "income": 6900,
+        "expenses": 3600
+      },
+      {
+        "month": "Dec",
+        "income": 10500,
+        "expenses": 6500
+      }
+    ]
+  }
+}

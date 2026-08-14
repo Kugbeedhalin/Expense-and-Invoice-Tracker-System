@@ -1,0 +1,6 @@
+{
+  "name": "Expense & Invoice Tracker",
+  "description": "Full-stack Expense & Invoice Tracker app with JWT authentication, transaction logging, invoice creation, PDF export, and financial dashboard analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
